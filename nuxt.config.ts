@@ -13,10 +13,6 @@ export default defineNuxtConfig({
     database: true,
     blob: true,
   },
-  nitro: {
-    preset: 'cloudflare-workers',
-    compatibilityDate: '2026-01-20',
-  },
   runtimeConfig: {
     public: {
       hubBlobUrl: 'https://blob.nuxt.dev',
