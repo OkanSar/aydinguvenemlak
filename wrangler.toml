@@ -1,4 +1,4 @@
 name = "aydinguvenemlak"
 compatibility_date = "2026-01-20"
-pages_build_output_dir = "dist"
-nodejs_compat = true
+type = "javascript"
+account_id = "12c8d8c7f0a0aa95ad683f576232c461"
