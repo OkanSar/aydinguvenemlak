@@ -11,10 +11,11 @@ export default defineNuxtConfig({
   css: ['~/assets/css/tailwind.css',],
   hub: {
     database: true,
-    blob: {
-      driver: 'cloudflare-r2',
-      bucketName: 'aydinguvenemlak',
-    },
+    blob: true,
+  },
+  nitro: {
+    preset: 'cloudflare-workers',
+    compatibilityDate: '2026-01-20',
   },
   runtimeConfig: {
     public: {
