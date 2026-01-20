@@ -1,8 +1,5 @@
-name = "aydinguvenemlak"          # Worker adı
-compatibility_date = "2026-01-20" # Bugünkü tarih veya gelecekteki tarih
-type = "javascript"               # veya "webpack", "modules" vs.
+name = "aydinguvenemlak"
+compatibility_date = "2026-01-20"
 
-# Eğer static assets deploy edeceksen:
-[site]
+[assets]
 bucket = "./dist"
-entry-point = "workers-site"
