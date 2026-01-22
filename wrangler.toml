@@ -1,0 +1,7 @@
+name = "aydinguvenemlak"
+compatibility_date = "2025-07-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aydinguvenemlak-db"
+database_id = "d7b8e789-c1b8-4121-8809-d69ef9cdb1d4"
